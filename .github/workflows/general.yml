@@ -9,8 +9,8 @@ on:
 
 env:
   CARGO_TERM_COLOR: always
-  SQLX_VERSION: 0.8.0
-  SQLX_FEATURES: "runtime-tokio-rustls, postgres"
+  SQLX_VERSION: 0.8
+  SQLX_FEATURES: "rustls, macros, postgres, uuid, chrono, migrate"
   APP_USER: app
   APP_USER_PWD: secret
   APP_DB_NAME: newsletter
