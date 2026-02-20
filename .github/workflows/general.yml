@@ -9,7 +9,7 @@ on:
 
 env:
   CARGO_TERM_COLOR: always
-  SQLX_VERSION: 0.8
+  SQLX_VERSION: "^0.8"
   SQLX_FEATURES: "rustls, macros, postgres, uuid, chrono, migrate"
   APP_USER: app
   APP_USER_PWD: secret
